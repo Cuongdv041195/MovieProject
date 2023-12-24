@@ -1,0 +1,71 @@
+.root {
+  display: block;
+  height: 80px;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+.homeToolContainer {
+  background-color: #fff;
+  border-radius: 5px;
+  z-index: 2;
+  box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+  height: 100%;
+}
+.nativeSelect {
+  display: flex !important;
+  justify-content: space-around;
+  height: 100%;
+
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  padding: 20px;
+}
+.nativeSelect::before {
+  content: unset;
+}
+.gridItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.selectFilm {
+  flex-grow: 1;
+  height: 100%;
+}
+.selectCinema {
+  flex-grow: 1;
+  height: 100%;
+}
+.selectDate {
+  flex-grow: 1;
+  height: 100%;
+}
+.selectSession {
+  flex-grow: 1;
+  height: 100%;
+}
+.buyContainer {
+  flex-grow: 1;
+  height: 100%;
+}
+.formControl {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+}
+.formControl:after {
+  position: absolute;
+  display: block;
+  content: '';
+  height: 60%;
+  width: 1px;
+  background-color: #eeeeee;
+}
+.button {
+  padding: 10px !important;
+  margin: 0 10px !important;
+}
